@@ -1,0 +1,103 @@
+.box {
+    width: 30%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: linear-gradient(to right, #141E30, #243B55);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: border-color 0.3s ease;
+  }
+  .box:hover {
+    border-color: #f53c5b;
+    transform: scale(1.1);
+  }
+
+  .box h2 {
+    font-size: 30px;
+    margin-bottom:10px;
+    color: #00d9ff;
+  }
+  .box p {
+    font-size: 18px;
+    color: #ddd;
+  }
+  
+  
+  .box2 {
+    width: 30%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: linear-gradient(to right, #141E30, #243B55);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: border-color 0.3s ease;
+  }
+  .box2:hover {
+    border-color: #47eaf0;
+    transform: scale(1.1);
+  }
+
+  .box2 h2 {
+    font-size: 30px;
+    margin-bottom:10px;
+    color: #00d9ff;
+  }
+  .box2 p {
+    font-size: 18px;
+    color: #ddd;
+  }
+  
+  
+  
+  .box3 {
+    width: 30%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: linear-gradient(to right, #141E30, #243B55);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: border-color 0.3s ease;
+  }
+  .box3:hover {
+    border-color: #4ae44a;
+    transform: scale(1.1);
+  }
+
+  .box3 h2 {
+    font-size: 30px;
+    margin-bottom:10px;
+    color: #00d9ff;
+  }
+  .box3 p {
+    font-size: 18px;
+    color: #ddd;
+  }
+
+
+  .box4 {
+    width: 30%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: linear-gradient(to right, #141E30, #243B55);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: border-color 0.3s ease;
+  }
+  .box4:hover {
+    border-color: #ffff00;
+    transform: scale(1.1);
+  }
+
+  .box4 h2 {
+    font-size: 30px;
+    margin-bottom:10px;
+    color: #00d9ff;
+  }
+  .box4 p {
+    font-size: 18px;
+    color: #ddd;
+  }

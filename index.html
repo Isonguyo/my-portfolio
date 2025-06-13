@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="icon" href="image/1744473847040.png" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img src="image/1747241442811.jpg" alt="my-photo" class="Portfolio-image">
+            <h1>Hi, I'm <span>Princewill Isonguyo</span></h1>
+            <p>Front-End Developer | React Enthusiast</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm a passionate and detail-oriented frontend web developer with a knack for crafting beautiful, responsive websites that provide exceptional user experiences. With a strong foundation in HTML, CSS, and JavaScript, I bring ideas to life through clean, efficient code and creative design.
+                Over the years, I've honed my skills in frameworks like React and Vue.js, and I've developed a deep understanding of modern web development practices, including SEO optimization and performance tuning. My goal is to bridge the gap between functionality and aesthetics, ensuring that every project I work on is visually stunning and effortlessly intuitive.
+                When I'm not coding, you'll likely find me exploring the latest web design trends, solving coding puzzles, or sipping coffee while brainstorming innovative ideas for my next project. Let's create something amazing together!
+            </p>
+        </div>
+    </section>
+
+    <h2 class="skill">Skills</h2>
+    <div class='boxes-container'>
+        <div class='skill-box' data-aos="fade-up" data-aos-easing="ease-in-out">
+            <h2>HTML5</h2>
+            <p>Proficient in crafting semantic, responsive, and accessible HTML structures that form the backbone of modern web applications...</p>
+        </div>
+        <div class='skill-box' data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="200">
+            <h2>CSS3</h2>
+            <p>Skilled in leveraging CSS to bring visually stunning designs to life, with expertise in CSS3, preprocessors like Sass, and modern layout techniques...</p>
+        </div>
+        <div class='skill-box' data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="400">
+            <h2>JavaScript</h2>
+            <p>Proficient in JavaScript, I craft dynamic and interactive web experiences with expertise in vanilla JS, React, Node.js...</p>
+        </div>
+        <div class='skill-box' data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="600">
+            <h2>React Js</h2>
+            <p>Experienced in building reusable and efficient UI components with React. With expertise in Hooks, Context API, and state management...</p>
+        </div>
+    </div>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                    <h3>Project One</h3>
+                    <p>A React-based project showcasing animations.</p>
+                    <a href="project/FB-collection/public/" target="_blank">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Project Two</h3>
+                    <p>An e-commerce website built with React</p>
+                    <a href="project/FB-collection/index.html" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"Princewill's attention to detail and innovative designs truly transformed our web presence."</p>
+                <span>- Ejay Etaba, Client</span>
+            </div>
+            <div class="testimonial">
+                <p>"Working with Princewill was a seamless experience. His skills in React are exceptional!"</p>
+                <span>- Goodluck Okoro, Project Partner</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>Feel free to reach out via <a href="mailto:isonguyoprincewill@gmail.com">email</a>.</p>
+            <p>Or get in touch via social media:</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/share/1KEiT8xaop/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/princewill_isonguyo17/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/2347012268966" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.tiktok.com/@khid_chaos" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="https://x.com/PIsonguyo66073" target="_blank"><i class='fab fa-twitter'></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Princewill Isonguyo. All rights reserved.</p>
+    </footer>
+
+    <a href="#" class="scroll-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+
+        const scrollBtn = document.querySelector('.scroll-to-top');
+        window.addEventListener('scroll', () => {
+            scrollBtn.style.display = window.scrollY > 200 ? 'block' : 'none';
+        });
+    </script>
+</body>
+</html>
+
+</html>
